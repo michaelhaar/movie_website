@@ -7,6 +7,8 @@ toy_story = media.Movie("Toy Story",
                         "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Toy_Story_logo.svg/1200px-Toy_Story_logo.svg.png",
                         "https://www.youtube.com/watch?v=KYz2wyBy3kc")
 #print(toy_story.storyline)  #access the instance variables
+#print(media.Movie.VALID_RATINGS)   #access calss variables
+#print(media.Movie.__doc__)
 
 avatar = media.Movie("Avatar",
                      "A marine on an alien planet",
@@ -32,5 +34,5 @@ ratatouille = media.Movie("Ratatouille",
                           "https://www.youtube.com/watch?v=niD-jahFURU")
 
 
-movies = [toy_story, avatar, moana, school_of_rock, ratatouille]
+movies =[toy_story, avatar, moana, school_of_rock, ratatouille]
 fresh_tomatos.open_movies_page(movies)
